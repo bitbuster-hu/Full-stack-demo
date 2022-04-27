@@ -5,8 +5,8 @@
 ### Install application with docker:
 
 ```bash
-    1. Clone git repository with 'git clone bitbuster-hu/PHP-Full-stack-demo.git'
-    2. Change to the new directory 'cd PHP-Full-stack-demo'
+    1. Clone git repository with 'git clone https://github.com/bitbuster-hu/Full-stack-demo.git'
+    2. Change to the new directory 'cd Full-stack-demo'
     3. Run 'docker-compose build --no-cache' to build all the docker containers.
     4. Run 'docker-compose up -d' to to start all the containers.
     5. Run 'docker exec full-stack-demo_php_1 sh -c "composer update"' to install all composer modules.
